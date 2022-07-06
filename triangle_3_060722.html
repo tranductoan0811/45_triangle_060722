@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <!-- Thực hành vẽ tam giác vuông xuôi, có khoảng trắng bên trái -->
+  <script>
+    let n = prompt("Nhập chiều cao tam giác: ");
+        
+    for (let row = 1; row <= n; row++) {
+        
+        for (let sp = n-row; sp >= 1; sp--) {
+            str = document.write("&nbsp" + "&nbsp");
+            
+        }
+        for (let char = 1; char <= row; char++) {
+            document.write("*"); 
+
+        }
+
+    document.write("</br>");
+
+    }
+
+
+
+  </script>
+
+  
+
+
+
+  
+</body>
+
+
+</html>

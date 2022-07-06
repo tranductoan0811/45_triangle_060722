@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+</head>
+<body>
+  <script>
+    
+    let n = prompt("Nhập chiều cao tam giác: ");
+    for (let row = 1; row <= n; row++) {
+      for (let sp = 1; sp <= row; sp++) {
+          document.write("&nbsp" + "&nbsp");
+      }
+
+      for (let char = n-row+1; char >= 1; char--) {
+          
+          document.write("*");
+
+      }
+
+      document.write("</br>");
+
+    }
+
+  </script>
+  
+</body>
+
+</html>
